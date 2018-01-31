@@ -1,0 +1,57 @@
+.colliers-cover-page {
+  @include print {
+    min-height: 11in;
+  }
+}
+
+.colliers-cover-page .colliers-box--white {
+  max-width: 50%;
+  margin-bottom: 12em;
+  @include mobile {
+    max-width: none;
+  }
+}
+
+.colliers-cover-page .colliers-box--white h1,
+.colliers-cover-page .colliers-box--white p {
+  #content_editor &,
+  .pdf-page-content & {
+    color: $base-text-color !important;
+  }
+}
+
+.colliers-cover-page h1 {
+  #content_editor &,
+  .pdf-page-content & {
+    font-size: 1.25em !important;
+    line-height: 1.4 !important;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+.colliers-cover-page .colliers-cover-page--client-logo {
+  display: block;
+  margin: 0.5em auto 2.5em;
+  max-width: 200px !important;
+  max-height: 75px !important;
+}
+
+.colliers-cover-page .colliers-cover-page--company-name {
+  #content_editor &,
+  .pdf-page-content & {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+.colliers-cover-page .colliers-cover-page--address {
+  #content_editor &,
+  .pdf-page-content & {
+    margin-bottom: 0;
+  }
+}
+
+.colliers-cover-page .colliers-cover-page--company-details {
+  margin-bottom: 2em;
+}

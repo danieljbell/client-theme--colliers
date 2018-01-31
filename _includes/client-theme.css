@@ -1,7 +1,57 @@
 /*
-=================================================================
-GITHUB REPO: https://github.com/danieljbell/client-theme-template
-=================================================================
+==================================================================
+GITHUB REPO: https://github.com/danieljbell/client-theme--colliers
+==================================================================
 */
+.colliers-full-page { position: relative; left: -30px; top: -20px; bottom: 0; width: calc(100% + 60px); padding: 20px 30px; margin-bottom: -40px; background-size: cover; background-position: center; }
+.colliers-box--white { padding: 2em 1em; background-color: rgba(255, 255, 255, 0.85); }
+.colliers-cover-page .colliers-box--white { max-width: 50%; margin-bottom: 12em; }
+#content_editor .colliers-cover-page .colliers-box--white h1, .pdf-page-content .colliers-cover-page .colliers-box--white h1, #content_editor .colliers-cover-page .colliers-box--white p, .pdf-page-content .colliers-cover-page .colliers-box--white p { color: #00467F !important; }
+#content_editor .colliers-cover-page h1, .pdf-page-content .colliers-cover-page h1 { font-size: 1.25em !important; line-height: 1.4 !important; font-weight: bold; margin-bottom: 0; }
+.colliers-cover-page .colliers-cover-page--client-logo { display: block; margin: 0.5em auto 2.5em; max-width: 200px !important; max-height: 75px !important; }
+#content_editor .colliers-cover-page .colliers-cover-page--company-name, .pdf-page-content .colliers-cover-page .colliers-cover-page--company-name { font-weight: bold; margin-bottom: 0; }
+#content_editor .colliers-cover-page .colliers-cover-page--address, .pdf-page-content .colliers-cover-page .colliers-cover-page--address { margin-bottom: 0; }
+.colliers-cover-page .colliers-cover-page--company-details { margin-bottom: 2em; }
+.table-of-contents { background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/594647_original.jpg?1517414880); position: relative; left: -0.5in; top: -0.5in; width: 8.5in; height: 11in; padding: 0.5in; }
+.table-of-contents:after { content: ''; position: absolute; z-index: 2; top: 0; bottom: 0; left: 4in; width: 100%; max-width: 3in; background-color: rgba(255, 255, 255, 0.8); }
+.table-of-contents h1, .table-of-contents ul, .table-of-contents .section { position: relative; z-index: 10; margin-left: 0; padding-left: 0; }
+.table-of-contents h1, .table-of-contents .section { max-width: 2.5in; left: 3.75in; }
+.table-of-contents h1 { margin-bottom: 0.5em; font-weight: bold; font-size: 3em; line-height: 0.9; color: #00467F; }
+.table-of-contents a { color: #00467F !important; }
+.table-of-contents .section ul { margin-top: 1em; }
+.table-of-contents .page { margin-bottom: 1em; }
+.colliers-has-text-white { color: #fff !important; }
+.colliers-has-text-brand-two { color: #00467F !important; }
+.colliers-font-shrink { font-size: 0.9em !important; line-height: 1.4 !important; }
+.colliers-pad-y { padding-top: 30px !important; padding-bottom: 30px !important; }
+.colliers-pad-y-more { padding-top: 60px !important; padding-bottom: 60px !important; }
+.colliers-pad-t { padding-top: 30px !important; }
+.colliers-pad-t-more { padding-top: 60px !important; }
+.colliers-pad-b { padding-bottom: 30px !important; }
+.colliers-pad-b-more { padding-bottom: 60px !important; }
+.colliers-pad-x { padding-left: 30px !important; padding-right: 30px !important; }
+.colliers-pad-x-more { padding-left: 60px !important; padding-right: 60px !important; }
+.colliers-pad-l { padding-left: 30px !important; }
+.colliers-pad-l-more { padding-left: 60px !important; }
+.colliers-pad-r { padding-right: 30px !important; }
+.colliers-pad-r-more { padding-right: 60px !important; }
+.colliers-mar-y { margin-top: 30px !important; margin-bottom: 30px !important; }
+.colliers-mar-y-more { margin-top: 60px !important; margin-bottom: 60px !important; }
+.colliers-mar-t { margin-top: 30px !important; }
+.colliers-mar-t-more { margin-top: 60px !important; }
+.colliers-mar-b { margin-bottom: 30px !important; }
+.colliers-mar-b-more { margin-bottom: 60px !important; }
+.colliers-mar-b-neg { margin-bottom: -30px !important; }
+.colliers-mar-b-none { margin-bottom: 0px !important; }
+.colliers-mar-x { margin-left: 30px !important; margin-right: 30px !important; }
+.colliers-mar-x-more { margin-left: 60px !important; margin-right: 60px !important; }
+.colliers-mar-l { margin-left: 30px !important; }
+.colliers-mar-l-more { margin-left: 60px !important; }
+.colliers-mar-r { margin-right: 30px !important; }
+.colliers-mar-r-more { margin-right: 60px !important; }
+.colliers-b-a { border: 1px solid #fff; }
+@media print { .colliers-full-page { left: -0.5in; top: -0.5in; width: 8.5in; padding: 0.5in; } .colliers-cover-page { min-height: 11in; } }
+@media screen and (max-width: 735px) { .colliers-cover-page .colliers-box--white { max-width: none; } }
+@media screen and (max-width: 568px) { .colliers-mar-x { margin-left: 0px !important; margin-right: 0px !important; } }
 
 /*# sourceMappingURL=client-theme.css.map */

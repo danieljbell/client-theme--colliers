@@ -1,0 +1,55 @@
+.table-of-contents {
+  background-image: url(https://mytinder.s3.amazonaws.com/assets/medias/594647_original.jpg?1517414880);
+  position: relative;
+  left: -0.5in;
+  top: -0.5in;
+  width: 8.5in;
+  height: 11in;
+  padding: 0.5in;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 4in;
+    width: 100%;
+    max-width: 3in;
+    background-color: transparentize(#fff, 0.2);
+  }
+}
+
+.table-of-contents h1,
+.table-of-contents ul,
+.table-of-contents .section {
+  position: relative;
+  z-index: 10;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.table-of-contents h1,
+.table-of-contents .section {
+  max-width: 2.5in;
+  left: 3.75in;  
+}
+
+.table-of-contents h1 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 0.9;
+  color: $base-text-color;
+}
+
+.table-of-contents a {
+  color: $base-text-color !important;
+}
+
+.table-of-contents .section ul {
+  margin-top: 1em;
+}
+
+.table-of-contents .page {
+  margin-bottom: 1em;
+}

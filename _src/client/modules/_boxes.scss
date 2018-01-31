@@ -1,0 +1,8 @@
+@mixin colliers-box {
+  padding: 2em 1em;
+}
+
+.colliers-box--white {
+  @include colliers-box;
+  background-color: transparentize(#fff, 0.15);
+}

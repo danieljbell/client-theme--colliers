@@ -1,7 +1,7 @@
 // ==============================
 // CLIENT BRAND COLORS
 // ==============================
-$brand: #8064A9;          // Purple
+$brand: #00467F;          // Purple
 $brand-two: $brand;      // Red
 $brand-three: $brand;    // Light Green
 
@@ -9,10 +9,10 @@ $brand-three: $brand;    // Light Green
 // ==============================
 // THEME BUILDER BASIC TYPOGRAPHY
 // ==============================
-$base-text-color: #2d3943;
-$base-heading-color: #2d3943;
+$base-text-color: #00467F;
+$base-heading-color: #00467F;
 $base-link-color: $brand-two;
-$base-font-family: 'Source Sans Pro';
+$base-font-family: Helvetica, Arial, sans-serif;
 
 // =================================
 // THEME BUILDER ADVANCED TYPOGRAPHY
@@ -21,10 +21,10 @@ $base-font-family: 'Source Sans Pro';
 // HEADING ONE
 $heading-one-text-color: $base-heading-color;
 $heading-one-font-family: $base-font-family;
-$heading-one-font-size: 36px;
-$heading-one-line-height: 40px;
-$heading-one-font-weight: 300;
-$heading-one-margin: 0 0 40px 0;
+$heading-one-font-size: 28px;
+$heading-one-line-height: 28px;
+$heading-one-font-weight: 700;
+$heading-one-margin: 0 0 0px 0;
 
 
 // HEADING TWO
@@ -75,8 +75,8 @@ $heading-six-margin: 0 0 4px 0;
 // PARAGRAPH
 $paragraph-text-color: $base-text-color;
 $paragraph-font-family: $base-font-family;
-$paragraph-font-size: 18px;
-$paragraph-line-height: 24px;
+$paragraph-font-size: 16px;
+$paragraph-line-height: 22px;
 $paragraph-font-weight: 300;
 $paragraph-margin: 0 0 20px 0;
 

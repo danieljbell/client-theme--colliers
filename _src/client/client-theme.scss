@@ -1,7 +1,16 @@
 @import './_client_variables';
+@import './mixins';
 
 /*
-=================================================================
-GITHUB REPO: https://github.com/danieljbell/client-theme-template
-=================================================================
+==================================================================
+GITHUB REPO: https://github.com/danieljbell/client-theme--colliers
+==================================================================
 */
+
+@import 'modules/full-pages';
+@import 'modules/boxes';
+
+@import 'pages/cover-page';
+@import 'pages/table-of-contents';
+
+@import 'utilities';
